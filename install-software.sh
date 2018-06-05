@@ -14,3 +14,21 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 # Vim
 apt-get install -y vim-gnome
 
+# X Clip, clipboard management
+apt-get install -y xclip
+
+# Feh, image viewer
+apt-get install -y feh
+
+# Vundle
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+# Curl
+apt-get install -y curl
+
+# NVM - Node version manager
+wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+source ~/.bashrc
+
+# Typescript
+npm install -g typescript
