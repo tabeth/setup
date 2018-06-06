@@ -32,3 +32,6 @@ source ~/.bashrc
 
 # Typescript
 npm install -g typescript
+
+# Silversearcher
+apt install -y silversearcher-ag
