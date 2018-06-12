@@ -50,3 +50,6 @@ apt-get install -y python
 
 # Python3
 apt-get install -y python3
+
+# Arandr
+apt-get install -y arandr
