@@ -1,4 +1,7 @@
 #! bin/sh
+# Update first
+apt-get update -y
+
 # i3 is a tiling window manager
 apt-get install -y i3
 
@@ -35,3 +38,15 @@ npm install -g typescript
 
 # Silversearcher
 apt install -y silversearcher-ag
+
+# Intern - Testing framework
+npm install -g intern
+
+# Open JDK
+apt-get install -y default-jdk
+
+# Python
+apt-get install -y python
+
+# Python3
+apt-get install -y python3
